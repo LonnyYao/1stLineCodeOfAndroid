@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/tv_2_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SecondActivity TextView"/>
+
+    <Button
+        android:id="@+id/bt_start_previous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Previous"/>
+
+    <Button
+        android:id="@+id/bt_start_third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Third"/>
+</LinearLayout>
