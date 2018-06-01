@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/bt_notification_big_tx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BigText Notification"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/bt_notification_big_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BigPicture Notification"
+        android:textAllCaps="false"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+
+    <Button
+        android:id="@+id/bt_notification_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Light Notification"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/bt_notification_ring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ring Notification"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/bt_notification_vibrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vibrate Notification"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>
